@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+}
+
+p {
+  color: #949494;
+}
+
+.logo {
+  width: 130px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  text-transform: uppercase;
+  color: #055999;
+}
+.abc, .owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev, .navbar-nav .nav-link.active, .navbar-expand-lg .navbar-nav .nav-link:hover {
+  background-color: #055999;
+  color: white;
+}
+
+.services p {
+  padding: 20px 0px;
+}
+
+.box {
+  background-color: #efefef;
+  border: 1px solid #efefef;
+  padding: 30px 20px;
+}
+.box h1 {
+  font-size: 66px;
+  padding: 30px 0px;
+}
+.box button {
+  background-color: #055999;
+  border-radius: 0px;
+  color: white;
+}
+.box button:hover {
+  border: 1px solid #055999;
+}
+.box:hover {
+  background-color: #fff;
+  border: 1px solid #055999;
+}
+
+.team {
+  background-color: #055999;
+}
+
+.owl-nav {
+  position: absolute;
+  right: 20px;
+  top: -30px;
+}
+
+.owl-carousel img:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+}
+
+.clients img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+footer {
+  background: #1B1B1B;
+}
+footer h6 {
+  color: #fff;
+}
+footer p {
+  color: #949494;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+footer ul li {
+  line-height: 25px;
+}
+footer ul li a {
+  color: #949494;
+}
+footer .bottom {
+  background-color: #191919;
+  color: #949494;
+}
+
+.breadcrumbb {
+  background: #2056ae url("https://webthemez.com/demo/overtake-business-bootstrap-html-website-template/img/slides/1.jpg");
+  background-size: 23%;
+  padding: 30px;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.up {
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+
+.down {
+  padding-bottom: 18px;
+}
+.down h2 {
+  font-size: 32px;
+  padding: 15px 17px;
+  border: 1px solid #055999;
+  margin-top: 5px;
+  color: #055999;
+}
+.down h5 {
+  color: #555;
+  font-weight: bold;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+}
+
+.menu {
+  padding: 0px 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.top-1 ul li {
+  border-left: 1px solid #949494;
+}
+.top-1 ul li a {
+  color: #777777;
+  font-weight: bold;
+}
+.top-1 ul li a:hover {
+  color: #055999;
+}
+.top-1 ul .a {
+  border: none;
+}
+
+.images {
+  padding: 0px;
+  overflow: hidden;
+}
+.images img {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+.images img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}/*# sourceMappingURL=style.css.map */

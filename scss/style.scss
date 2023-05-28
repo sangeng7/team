@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+$brand: #055999;
+$text: #949494;
+
+p {
+    color: $text;
+}
+
+.logo {
+    width: 130px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    text-transform: uppercase;
+    color: $brand;
+
+    &:hover {
+        @extend .abc;
+    }
+}
+
+.abc {
+    background-color: $brand;
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    @extend .abc;
+}
+
+.services {
+    p {
+        padding: 20px 0px;
+    }
+}
+
+.box {
+    background-color: #efefef;
+    border: 1px solid #efefef;
+    padding: 30px 20px;
+
+    h1 {
+        font-size: 66px;
+        padding: 30px 0px;
+    }
+
+    button {
+        background-color: #055999;
+        border-radius: 0px;
+        color: white;
+
+        &:hover {
+            border: 1px solid $brand;
+        }
+    }
+
+    &:hover {
+        background-color: #fff;
+        border: 1px solid $brand;
+    }
+
+}
+    .team {
+        background-color: $brand;
+    }
+
+    .owl-nav {
+        position: absolute;
+        right: 20px;
+        top: -30px;
+    }
+
+    .owl-carousel img {
+        &:hover {
+            filter: grayscale(0%);
+        }
+    }
+
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        width: 30px;
+        height: 30px;
+        @extend .abc;
+        margin: 2px;
+    }
+
+    .clients img {
+        filter: grayscale(100%);
+    }
+
+    footer {
+        background: #1B1B1B;
+
+        h6 {
+            color: #fff;
+        }
+
+        p {
+            color: #949494;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                line-height: 25px;
+
+                a {
+                    color: #949494;
+
+                }
+            }
+        }
+
+        .bottom {
+            background-color: #191919;
+            color: #949494;
+        }
+    }
+
+    .breadcrumbb {
+        background: #2056ae url('https://webthemez.com/demo/overtake-business-bootstrap-html-website-template/img/slides/1.jpg');
+        background-size: 23%;
+        padding: 30px;
+        background-position: right top;
+        background-repeat: no-repeat;
+
+    }
+
+    .up {
+        border-bottom: 1px solid #eee;
+        padding: 20px 0;
+    }
+
+    .down {
+        padding-bottom: 18px;
+
+        h2 {
+            font-size: 32px;
+            padding: 15px 17px;
+            border: 1px solid $brand;
+            margin-top: 5px;
+            color: $brand;
+        }
+
+        h5 {
+            color: #555;
+            font-weight: bold;
+        }
+    }
+
+    .flex {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    .menu{
+        padding: 0px 10px;
+        flex-wrap: wrap;
+    }
+    .top-1{
+        ul{
+               li{
+                border-left: 1px solid $text;
+                a{
+                    color: #777777;
+                    font-weight: bold;
+                    &:hover{
+                        color: $brand;
+                    }
+                }
+            }
+            .a{
+                border: none;
+            }
+        }
+    }
+    .images{
+        padding: 0px;
+        overflow: hidden;
+        img{
+            transition: 0.9s;
+            &:hover{
+                transform: scale(1.2);
+                
+            }
+        }
+    }
